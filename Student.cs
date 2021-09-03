@@ -4,6 +4,10 @@ namespace DataStructProjectOne
 {
     public class Student : Person
     {
+        /*
+        This is the Student class which inherits from Person. 
+        It has a constructor which makes a Student object that has a Name, ID, Credits, and a GPA.
+        */
         public Student(string name, int id, decimal credits, decimal gPA)
         {
             Name = name;
@@ -11,8 +15,5 @@ namespace DataStructProjectOne
             Credits = credits;
             GPA = gPA;
         }
-        public int ID { get; set; }
-        public decimal Credits { get; set; }
-        public decimal GPA { get; set; }
     }
 }
