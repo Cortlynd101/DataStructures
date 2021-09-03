@@ -1,14 +1,17 @@
 using System;
 
-public class Person
+namespace DataStructProjectOne
 {
-    public Person()
+    public class Person
     {
-        Name = "unkown";
+        public Person()
+        {
+            Name = "unkown";
+        }
+        public Person(string name, int id, decimal credits, decimal gPA)
+        {
+            Name = name;
+        }
+        public string Name { get; set; }
     }
-    public Person(string name, int id, decimal credits, decimal gPA)
-    {
-        Name = name;
-    }
-    public string Name { get; set; }
 }
