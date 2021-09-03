@@ -8,7 +8,7 @@ namespace DataStructProjectOne
     public static class Methods
     {
         private static List<Student> StudentList = new List<Student>();
-        private static int id {get; set;}
+        private static int id { get; set; }
         public static void SystemMethod()
         {
             bool ExitSystem = false;
@@ -63,15 +63,25 @@ namespace DataStructProjectOne
                         Console.Write("Invalid input please try again: ");
                     }
                 }
-                //StudentList.ToString().Contains(UserInput); //Find(UserInput, UserInput, UserInput, UserInput) .Contains(UserInput);
-                Write(StudentList[UserInput-1].Name);
+
+                if (UserInput <= StudentList.Count & UserInput > 0)
+                {
+                    WriteLine($"\nName: {StudentList[UserInput - 1].Name}");
+                    WriteLine($"ID: {StudentList[UserInput - 1].ID}");
+                    WriteLine($"Credits earned: {StudentList[UserInput - 1].Credits}");
+                    WriteLine($"GPA: {StudentList[UserInput - 1].GPA}");
+                }
+                else
+                {
+                    WriteLine("There is no student at that ID. ");
+                }
 
                 WriteLine("\nWould you like to access another student or return to the main menu? ");
                 Write("Enter [1] to return and [2] to look up another student: ");
-                do 
+                do
                 {
                     string SecondUserInput = ReadLine().ToString().ToLower();
-                if (SecondUserInput == "1")
+                    if (SecondUserInput == "1")
                     {
                         ExitOrNotInputCorrect = true;
                         Exit = true;
@@ -89,7 +99,7 @@ namespace DataStructProjectOne
         }
         public static void StudentAddMethod()
         {
-            
+
             bool StudentAddedSuccessfully = false;
             bool Confirmation = false;
             WriteLine();
@@ -158,7 +168,7 @@ namespace DataStructProjectOne
                     string userInput = ReadLine().ToString().ToLower();
                     if (userInput == "1")
                     {
-                        id++;
+                        ++id;
                         StudentList.Add(new Student(name, id, credits, gpa));
                         WriteLine("Student successfully added. ");
                         WriteLine($"That individual student's ID is: {id}");
