@@ -1,0 +1,16 @@
+C:\Users\Cortl\code\DataStructWorking\PROJONE\obj\Debug\net5.0\PROJONE.csprojAssemblyReference.cache
+C:\Users\Cortl\code\DataStructWorking\PROJONE\obj\Debug\net5.0\PROJONE.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Cortl\code\DataStructWorking\PROJONE\obj\Debug\net5.0\PROJONE.AssemblyInfoInputs.cache
+C:\Users\Cortl\code\DataStructWorking\PROJONE\obj\Debug\net5.0\PROJONE.AssemblyInfo.cs
+C:\Users\Cortl\code\DataStructWorking\PROJONE\obj\Debug\net5.0\PROJONE.csproj.CoreCompileInputs.cache
+C:\Users\Cortl\code\DataStructWorking\PROJONE\bin\Debug\net5.0\PROJONE.exe
+C:\Users\Cortl\code\DataStructWorking\PROJONE\bin\Debug\net5.0\PROJONE.deps.json
+C:\Users\Cortl\code\DataStructWorking\PROJONE\bin\Debug\net5.0\PROJONE.runtimeconfig.json
+C:\Users\Cortl\code\DataStructWorking\PROJONE\bin\Debug\net5.0\PROJONE.runtimeconfig.dev.json
+C:\Users\Cortl\code\DataStructWorking\PROJONE\bin\Debug\net5.0\PROJONE.dll
+C:\Users\Cortl\code\DataStructWorking\PROJONE\bin\Debug\net5.0\ref\PROJONE.dll
+C:\Users\Cortl\code\DataStructWorking\PROJONE\bin\Debug\net5.0\PROJONE.pdb
+C:\Users\Cortl\code\DataStructWorking\PROJONE\obj\Debug\net5.0\PROJONE.dll
+C:\Users\Cortl\code\DataStructWorking\PROJONE\obj\Debug\net5.0\ref\PROJONE.dll
+C:\Users\Cortl\code\DataStructWorking\PROJONE\obj\Debug\net5.0\PROJONE.pdb
+C:\Users\Cortl\code\DataStructWorking\PROJONE\obj\Debug\net5.0\PROJONE.genruntimeconfig.cache
